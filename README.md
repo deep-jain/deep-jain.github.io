@@ -4,7 +4,7 @@ Website created for bio purposes.
 
 ## Front End:
   * HTML
-
-## Back End:
   * Javascript
   * Cascading Style Sheets (CSS)
+
+## Back End:
