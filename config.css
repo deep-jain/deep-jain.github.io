@@ -29,8 +29,3 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
-
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
