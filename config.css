@@ -29,3 +29,19 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
+
+#OverviewText4 {
+    position: relative;
+}
+
+#OverviewText4:before {
+  content: "";
+  background: transparent url(Github.png) scroll no-repeat 0 0;
+  background-size: cover;
+  width: 175px;
+  height: 75px;
+  position: absolute;
+  display: block;
+  top: 180px;
+  left:   -375px;
+}
