@@ -1,11 +1,4 @@
 # jdeep97.github.io
 
-*Website created for personal bio*
+*Personal Site in Rework*
 
-## Front End:
-  * HTML
-  * JavaScript
-  * Cascading Style Sheets (CSS)
-
-## Back End:
-  * In Progress
