@@ -1,0 +1,13 @@
+.intro {
+    align-items: center;
+    display: flex;
+}
+
+.set {
+    flex: 33%;
+}
+
+img {
+    vertical-align: middle;
+    padding: 100px 300px
+}
