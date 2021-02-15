@@ -64,6 +64,11 @@ body {
     left: 1200px;
 }
 
+p {
+    color: white;
+    text-align: center;
+}
+
 @keyframes text {
    0%{
        color: rgb(117, 42, 42);
