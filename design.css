@@ -29,16 +29,10 @@ body {
     display: block;
 }
 
-.container2 span{
-    color: white;
-    letter-spacing: normal;
-    display: block;
-}
-
 .text1 {
     font-size: 50px;
     font-weight: 700;
-    left: -150px;
+    left: -180px;
     position: relative;
     animation: text 5s 1;
 }
@@ -46,7 +40,7 @@ body {
 .text2 {
     font-size: 50px;
     font-weight: 700;
-    left: -150px;
+    left: -180px;
     position: relative;
     animation: text2 7s 1;
 }
@@ -54,21 +48,21 @@ body {
 .text3 {
     font-size: 50px;
     font-weight: 700;
-    left: -150px;
+    left: -180px;
     position: relative;
     animation: text3 8s 1;
 }
 
-exp1-1 {
-    top: 3000px;
-}
-
-img {
+.mainPic{
     vertical-align: middle;
     padding: 100px 300px
 }
 
-
+.refLinks{
+    width: 20%;
+    position:absolute;
+    left: 1200px;
+}
 
 @keyframes text {
    0%{
