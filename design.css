@@ -29,12 +29,6 @@ body {
     display: block;
 }
 
-.container2 span{
-    color: white;
-    letter-spacing: normal;
-    display: block;
-}
-
 .text1 {
     font-size: 50px;
     font-weight: 700;
@@ -59,21 +53,12 @@ body {
     animation: text3 8s 1;
 }
 
-exp1-1 {
-    top: 3000px;
-}
-
 img {
     vertical-align: middle;
     padding: 100px 300px
 }
 
-.expTitle{
-    text-align: center;
-    color: white;
-    font-size: 45px;
-    font-weight: 500;
-}
+
 
 @keyframes text {
    0%{
