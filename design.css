@@ -1,13 +1,94 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(static/dataBG.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.deepName {
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    font-weight: 700;
+}
+
 .intro {
     align-items: center;
+    text-align: center;
     display: flex;
 }
 
-.set {
-    flex: 33%;
+.container span{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    display: block;
+}
+
+.container2 span{
+    color: white;
+    letter-spacing: normal;
+    display: block;
+}
+
+.text1 {
+    font-size: 50px;
+    font-weight: 700;
+    left: -150px;
+    position: relative;
+    animation: text 5s 1;
+}
+
+.text2 {
+    font-size: 50px;
+    font-weight: 700;
+    left: -150px;
+    position: relative;
+    animation: text2 7s 1;
+}
+
+.text3 {
+    font-size: 50px;
+    font-weight: 700;
+    left: -150px;
+    position: relative;
+    animation: text3 8s 1;
+}
+
+exp1-1 {
+    top: 3000px;
 }
 
 img {
     vertical-align: middle;
     padding: 100px 300px
 }
+
+.expTitle{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+@keyframes text {
+   0%{
+       color: rgb(117, 42, 42);
+   } 
+}
+
+@keyframes text2 {
+    0%{
+        color: rgb(117, 42, 42);
+    } 
+ }
+
+ @keyframes text3 {
+    0%{
+        color: rgb(117, 42, 42);
+    } 
+ }
