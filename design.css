@@ -29,6 +29,12 @@ body {
     display: block;
 }
 
+.container2 span{
+    color: white;
+    letter-spacing: normal;
+    display: block;
+}
+
 .text1 {
     font-size: 50px;
     font-weight: 700;
@@ -51,6 +57,10 @@ body {
     left: -150px;
     position: relative;
     animation: text3 8s 1;
+}
+
+exp1-1 {
+    top: 3000px;
 }
 
 img {
