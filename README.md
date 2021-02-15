@@ -1,4 +1,7 @@
 # jdeep97.github.io
+* Used HTML and CSS
 
-*Personal Site in Rework*
+Background Credit: https://buffer.com/library/content/images/library/wp-content/uploads/2016/06/giphy.gif
+
+*Last Updated 02/15/2021*
 
