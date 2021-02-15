@@ -2,6 +2,11 @@
     font-family: sans-serif;
 }
 
+html { 
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+
 body {
     background-image: url(static/dataBG.gif);
     background-repeat: no-repeat;
@@ -10,19 +15,21 @@ body {
 }
 
 .deepName {
-    text-align: center;
+    position: relative;
+    top: 5%;
+    left: 35%;
+
     color: white;
     font-size: 85px;
     font-weight: 700;
 }
 
-.intro {
-    align-items: center;
-    text-align: center;
-    display: flex;
-}
-
 .container span{
+    position: relative;
+    text-align: center;
+    bottom: 500px;
+    left: 17.5%;
+
     color: white;
     text-transform: uppercase;
     letter-spacing: normal;
@@ -30,10 +37,10 @@ body {
 }
 
 .text1 {
+
     font-size: 50px;
     font-weight: 700;
     left: -180px;
-    position: relative;
     animation: text 5s 1;
 }
 
@@ -41,7 +48,6 @@ body {
     font-size: 50px;
     font-weight: 700;
     left: -180px;
-    position: relative;
     animation: text2 7s 1;
 }
 
@@ -49,24 +55,28 @@ body {
     font-size: 50px;
     font-weight: 700;
     left: -180px;
-    position: relative;
     animation: text3 8s 1;
 }
 
 .mainPic{
-    vertical-align: middle;
-    padding: 100px 300px
+    position: relative;
+    bottom: -40px;
+    left: 10%;
 }
 
 .refLinks{
+    position: relative;
+    bottom: 450px;
+    left: 63%;
     width: 20%;
-    position:absolute;
-    left: 1200px;
 }
 
 p {
+    position: fixed;
     color: white;
     text-align: center;
+    bottom: 0%;
+    right: 50%;
 }
 
 @keyframes text {
