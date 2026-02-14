@@ -11,7 +11,7 @@ const body = document.querySelector('body')
 function yes() {
     text.style.display = 'block'
     buttons.style.display = 'none'
-    question.textContent = "I love you, desire you, want you. \n I want to keep building this life together and perfecting our love!"
+    question.textContent = "I want to keep building this life together and perfecting our love!"
     gif.src = '../assets/IMG_4489.JPEG'
 
 
@@ -61,5 +61,6 @@ for (var i = 0; i < numbers; i++) {
     }, 1500); // Remove the heart after 1.5 seconds
 }
 }
+
 
 
