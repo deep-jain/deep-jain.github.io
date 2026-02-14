@@ -27,6 +27,14 @@ button {
     color: #000000;
 }
 
+.giffy {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .yes {
     background-color: lightgreen;
     
@@ -94,3 +102,4 @@ animation-name: heartAnimation3;
     transform: translateY(100px) scale(0);
 }
 }
+
